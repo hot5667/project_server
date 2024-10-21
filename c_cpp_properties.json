@@ -1,0 +1,25 @@
+{
+     "configurations": [
+         {
+             "name": "Mac",
+             "includePath": [
+                 "${workspaceFolder}/**",
+                 "/usr/local/include",  // Homebrew로 설치된 라이브러리 경로
+                 "/usr/local/opt/openssl/include",  // OpenSSL 헤더 경로
+                 "/usr/local/opt/boost/include",  // Boost 헤더 경로
+                 "/usr/local/opt/websocketpp/include"  // WebSocketpp 헤더 경로
+             ],
+             "defines": [],
+             "macFrameworkPath": [
+                 "/System/Library/Frameworks",
+                 "/Library/Frameworks"
+             ],
+             "compilerPath": "/usr/bin/clang++",
+             "cStandard": "c11",
+             "cppStandard": "c++11",
+             "intelliSenseMode": "macos-clang-x64"
+         }
+     ],
+     "version": 4
+ }
+ 
